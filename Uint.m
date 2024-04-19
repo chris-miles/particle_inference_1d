@@ -1,0 +1,3 @@
+function out =  Uint(z,L,lambda,mu)
+out = mu.^(-1).*(lambda+(-1).*lambda.*cosh((1/2).*(L+(-2).*z).*mu.^(1/2) ...
+).*sech((1/2).*L.*mu.^(1/2)));
